@@ -20,9 +20,9 @@ To generate SSH keys in Termux, you can follow these steps:
      ```
 
 4. Generate SSH keys:
-   - Run the following command to start the SSH key generation process:
+   - Run the following command to start the SSH key generation process, "your_email@example.com" should be your GitHub email and also eliminate the quotation marks:
      ```
-     ssh-keygen -t rsa -b 4096
+     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
      ```
    - You will be prompted to enter a file path to save the SSH keys. You can press Enter to accept the default file path (usually `/data/data/com.termux/files/home/.ssh/id_rsa`).
    - You will also be prompted to enter a passphrase for the SSH key. You can choose to set a passphrase or leave it blank for no passphrase. Press Enter after making your choice.
